@@ -5,7 +5,9 @@
  * A LIFO (Last In First Out) 
  * data-structure of generic 
  * items.
+ * 
  */
+
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -35,6 +37,8 @@ int main(int argc, char ** arcv){
 
 	// Destroy local handle
 	free(cb);
+
+	//destroy
 
 	return(0);
 }
